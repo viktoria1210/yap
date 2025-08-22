@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #f9f7ff;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.greeting h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #7a5ea4;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.image-box {
+  text-align: center;
+  padding: 20px;
+  background: #f3eefd;
+}
+
+.moment-img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.footer-nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #7a5ea4;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #563f78;
+}
